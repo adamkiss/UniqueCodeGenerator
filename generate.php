@@ -12,7 +12,7 @@
 	while (count($UNIQUE) < $count) {
 		$new_code = null;
 		do {
-			$new_code = substr(md5($md5_base), 0, $length);
+			$new_code = substr(md5($name.$md5_base), 0, $length);
 			$md5_base++;
 		}
 		while (array_key_exists($new_code, $UNIQUE));
