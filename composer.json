@@ -1,5 +1,6 @@
 {
+	"minimum-stability": "dev",
     "require": {
-        "phpoffice/phpexcel": "^1.8"
+        "dprmc/excel": "dev-master"
     }
 }
