@@ -5,10 +5,16 @@
 ## Code Example
 
 ``` bash
-php generate.php <format> <number> <length>
+php generate.php <number> <length> <output> <format>
 ```
 
-Defaults: `format` is XLS, `number` is 100, `length` is 6
+``` yaml
+Defaults:
+  number: 100
+  length: 6
+  output: current timestamp
+  format: 'xls'
+```
 
 ## Motivation
 
