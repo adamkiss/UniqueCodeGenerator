@@ -1,6 +1,5 @@
 <?php
-	$args = array_pop($argv);
-	list($count, $length, $name, $format) = $args;
+	list($count, $length, $name, $format) = array_pad(array_slice($argv, 1), 4, null);
 
 	if (is_null($count)) { $count = 20; }
 	if (is_null($length)) { $length = 6; }
