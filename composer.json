@@ -1,6 +1,6 @@
 {
 	"minimum-stability": "dev",
-    "require": {
-        "dprmc/excel": "dev-master"
-    }
+	"require": {
+		"dprmc/excel": "dev-master"
+	}
 }
